@@ -1,0 +1,29 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
